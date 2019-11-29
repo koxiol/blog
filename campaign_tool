@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-29T10:05:09.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="uOt1CUN760CFAYjw0yap" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-29T10:38:26.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="6zcoJ0gizQkrpfUAOsZj" version="12.3.3" type="github" pages="1">
   <diagram id="q_iDJrinzIyitaMk7O_4" name="Page-1">
-    <mxGraphModel dx="3601" dy="2366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2627" dy="1767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -53,7 +53,7 @@
           <mxGeometry y="60" width="330" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="pSRWwJnDh9inoQJrAomN-22" value="Campaign_Merger()" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="330" width="330" height="188" as="geometry"/>
+          <mxGeometry x="390" y="330" width="330" height="220" as="geometry"/>
         </mxCell>
         <mxCell id="pSRWwJnDh9inoQJrAomN-23" value="campaign_body_type, campaign_body_src,&#xa;campaign_data, preparation_date&#xa;inclusions, exclusions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pSRWwJnDh9inoQJrAomN-22">
           <mxGeometry y="26" width="330" height="64" as="geometry"/>
@@ -61,8 +61,8 @@
         <mxCell id="pSRWwJnDh9inoQJrAomN-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pSRWwJnDh9inoQJrAomN-22">
           <mxGeometry y="90" width="330" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="pSRWwJnDh9inoQJrAomN-25" value="make_campaign_body&#xa;check_if_already_made&#xa;campaign_refresh&#xa;make_inclusions (parallel)&#xa;make_esxclusions (parallel)&#xa;export campaign" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pSRWwJnDh9inoQJrAomN-22">
-          <mxGeometry y="98" width="330" height="90" as="geometry"/>
+        <mxCell id="pSRWwJnDh9inoQJrAomN-25" value="make_campaign_body&#xa;check_if_already_made&#xa;campaign_refresh&#xa;make_inclusions (parallel)&#xa;make_esxclusions (parallel)&#xa;campaign_refresh&#xa;export campaign" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pSRWwJnDh9inoQJrAomN-22">
+          <mxGeometry y="98" width="330" height="122" as="geometry"/>
         </mxCell>
         <mxCell id="pSRWwJnDh9inoQJrAomN-26" value="Campaign_Body_Maker()" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="395.5" width="330" height="220" as="geometry"/>
@@ -73,7 +73,7 @@
         <mxCell id="pSRWwJnDh9inoQJrAomN-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pSRWwJnDh9inoQJrAomN-26">
           <mxGeometry y="90" width="330" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="pSRWwJnDh9inoQJrAomN-29" value="make_campaign_body&#xa;run_r_script&#xa;run_python_script&#xa;check_if_already_made&#xa;campaign_refresh&#xa;make_inclusions (parallel)&#xa;make_esxclusions (parallel)&#xa;export campaign" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pSRWwJnDh9inoQJrAomN-26">
+        <mxCell id="pSRWwJnDh9inoQJrAomN-29" value="make_campaign_body&#xa;run_r_script&#xa;run_python_script&#xa;check_if_already_made&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pSRWwJnDh9inoQJrAomN-26">
           <mxGeometry y="98" width="330" height="122" as="geometry"/>
         </mxCell>
         <mxCell id="pSRWwJnDh9inoQJrAomN-30" value="" style="shape=link;html=1;" edge="1" parent="1" source="pSRWwJnDh9inoQJrAomN-15" target="pSRWwJnDh9inoQJrAomN-4">
