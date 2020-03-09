@@ -1,26 +1,26 @@
-<mxfile host="www.draw.io" modified="2020-03-09T08:46:38.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="kfh8OthgdBKDMIgJbc7Z" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-09T08:56:22.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="0-W8hqm7V4vtK-CAs_t8" version="12.8.1" type="github">
   <diagram name="Page-1" id="f1b7ffb7-ca1e-a977-7cf5-a751b3c06c05">
-    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1248" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="13" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="140" width="570" height="480" as="geometry" />
+          <mxGeometry x="20" y="190" width="570" height="550" as="geometry" />
         </mxCell>
         <mxCell id="2" value="Campaign Composer" style="text;spacingTop=-5;fontSize=18;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="70" y="30" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="10" value="Wybierz dane wejściowe" style="text;spacingTop=-5;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="30" y="120" width="250" height="20" as="geometry" />
+          <mxGeometry x="30" y="170" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="50" value="" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="80" width="570" height="20" as="geometry" />
+          <mxGeometry x="20" y="140" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="51" value="Zapytanie/ścieżka do pliku" style="text;spacingTop=-5;" parent="1" vertex="1">
-          <mxGeometry x="210" y="160" width="30" height="20" as="geometry" />
+        <mxCell id="51" value="Zapytanie/ścieżka do pliku" style="text;spacingTop=-5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="210" y="210" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rB9tY-ax31ugRvZ0QZS--175" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;recursiveResize=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="160" width="150" height="160" as="geometry" />
+          <mxGeometry x="30" y="210" width="150" height="160" as="geometry" />
         </mxCell>
         <mxCell id="rB9tY-ax31ugRvZ0QZS--176" value="Zapytanie SQL" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;" vertex="1" parent="rB9tY-ax31ugRvZ0QZS--175">
           <mxGeometry x="8" y="7.5" width="15" height="15" as="geometry" />
@@ -38,7 +38,31 @@
           <mxGeometry x="8" y="130" width="15" height="15" as="geometry" />
         </mxCell>
         <mxCell id="rB9tY-ax31ugRvZ0QZS--185" value="" style="shape=mxgraph.mockup.containers.marginRect;rectMarginTop=10;strokeColor=#666666;strokeWidth=1;dashed=0;rounded=1;arcSize=5;recursiveResize=0;" vertex="1" parent="1">
-          <mxGeometry x="205" y="170" width="355" height="150" as="geometry" />
+          <mxGeometry x="205" y="220" width="355" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rB9tY-ax31ugRvZ0QZS--189" value="Załaduj definicję kampanii z pliku:" style="text;spacingTop=-5;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rB9tY-ax31ugRvZ0QZS--190" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/common-toolbar/36/Open-128.png;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="146" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="rB9tY-ax31ugRvZ0QZS--191" value="Zapisz" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="420" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rB9tY-ax31ugRvZ0QZS--192" value="Pobierz dane" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="390" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rB9tY-ax31ugRvZ0QZS--199" value="&lt;table border=&quot;0&quot; width=&quot;100%&quot; height=&quot;100%&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Value 1&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 2&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Value 4&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 5&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Value 7&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 8&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 9&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=none;overflow=fill;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="580" width="510" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rB9tY-ax31ugRvZ0QZS--203" value="Dane wejściowe:&#xa;" style="text;spacingTop=-5;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="481" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rB9tY-ax31ugRvZ0QZS--206" value="Czas pobierania: 20 sek&#xa;Liczba wierszy: 12345&#xa;Liczba kolumn" style="text;spacingTop=-5;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="50" y="501" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rB9tY-ax31ugRvZ0QZS--207" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Pobierz tylko próbkę danych&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="15" height="17.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
